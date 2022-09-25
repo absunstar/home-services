@@ -1,0 +1,29 @@
+ion-content {
+  --background: #3171e0;
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ion-icon {
+    font-size: 10rem;
+    color: #42d77d;
+  }
+  ion-button {
+    margin: 5vh 25vw 5vh 25vw;
+    min-width: 50vw;
+  }
+  h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+  }
+  ul {
+    list-style: none;
+    li {
+      color: #fff;
+      margin: 5px;
+      text-shadow: 1px 1px 1px #000;
+    }
+  }
+}

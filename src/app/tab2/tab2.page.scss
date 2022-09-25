@@ -1,0 +1,26 @@
+ion-content {
+    h1{
+        color: black;
+        text-align: center;
+      
+        a{
+            color : green;
+            font-weight: bold;
+        }
+    }
+    ion-button{
+        margin: 5vh 25vw 5vh 25vw;
+        min-width: 50vw;
+        ion-icon{
+            margin: 5px;
+        }
+    }
+    ion-img{
+        display: inline-block;
+        width: 30vw;
+        margin: 5px;
+        padding: 5px;
+        height: auto;
+        border: 1px solid #bbb;
+    }
+}

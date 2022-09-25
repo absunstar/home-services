@@ -16,7 +16,7 @@
 @import "~@ionic/angular/css/normalize.css";
 @import "~@ionic/angular/css/structure.css";
 @import "~@ionic/angular/css/typography.css";
-@import '~@ionic/angular/css/display.css';
+@import "~@ionic/angular/css/display.css";
 
 /* Optional CSS utils that can be commented out */
 @import "~@ionic/angular/css/padding.css";
@@ -24,3 +24,33 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+@font-face {
+  font-family: "Arabic";
+  font-style: normal;
+  font-weight: normal;
+  src: url(assets/fonts/DroidKufi-Bold.eot);
+  src: url(assets/fonts/DroidKufi-Regular.eot?#iefix)
+      format("embedded-opentype"),
+    url(assets/fonts/DroidKufi-Regular.woff2) format("woff2"),
+    url(assets/fonts/DroidKufi-Regular.woff) format("woff"),
+    url(assets/fonts/DroidKufi-Regular.ttf) format("!0type");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Arabic";
+  font-style: normal;
+  font-weight: bold;
+  src: url(assets/fonts/DroidKufi-Bold.eot);
+  src: url(assets/fonts/DroidKufi-Bold.eot?#iefix) format("embedded-opentype"),
+    url(assets/fonts/DroidKufi-Bold.woff) format("woff"),
+    url(assets/fonts/DroidKufi-Bold.ttf) format("!0type");
+  font-display: swap;
+}
+:root {
+  --ion-default-font: "Arabic", "Roboto", "Helvetica Neue", sans-serif !important;
+  direction: rtl;
+}
+.toast{
+  text-align: center;
+}
